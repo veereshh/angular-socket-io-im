@@ -13,7 +13,7 @@ var app = module.exports = express.createServer();
 var io = require('socket.io').listen(app);
 
 // Configuration
-
+// This line indicate the configur method.
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
